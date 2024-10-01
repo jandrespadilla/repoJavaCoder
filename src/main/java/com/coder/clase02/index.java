@@ -4,20 +4,17 @@ public class index {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		float numeroA= 1;
-		float numeroB= 0;
-		String operacion = "+";
-		float resultado=numeroA/numeroB;
-		if (numeroA>numeroB) {
-			System.out.println(numeroA + " mayor a "+ numeroB);
+		int ingreseSuNumero = 0;
+		if (ingreseSuNumero>0) {
+			System.out.println("el numero ingresado es positivo");
+			
+		}else if (ingreseSuNumero<0) {
+			System.out.println("el numero ingresado es negativo");
+		}else if (ingreseSuNumero==0){
+			System.out.println("el numero ingresado es igual a 0");
 		}else {
-			System.out.println(numeroA + " menor a "+ numeroB);
+			System.out.println("el numero ingresado no es un numero");
 		}
-		if (numeroB!=0) {
-				System.out.println("Resultado "+ resultado);
-			}else {
-				System.out.println("No se puede dividiir por 0");
-    	}
 	}
 
 }
