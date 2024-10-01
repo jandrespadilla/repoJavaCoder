@@ -4,17 +4,38 @@ public class index {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int ingreseSuNumero = 0;
-		if (ingreseSuNumero>0) {
-			System.out.println("el numero ingresado es positivo");
-			
-		}else if (ingreseSuNumero<0) {
-			System.out.println("el numero ingresado es negativo");
-		}else if (ingreseSuNumero==0){
-			System.out.println("el numero ingresado es igual a 0");
-		}else {
-			System.out.println("el numero ingresado no es un numero");
+		int numerodeldia = 1;
+		String dia;
+		
+		switch (numerodeldia) {
+		case 1:
+			dia="Lunes";
+			break;
+		case 2:
+			dia="Martes";
+			break;
+
+		case 3:
+			dia="Miercoles";
+			break;
+		case 4:
+			dia="Jueves";
+			break;
+
+		case 5:
+			dia="Viernes";
+			break;
+		case 6:
+			dia="Sabado";
+			break;			
+		case 7:
+			dia="Domingo";
+			break;		
+		default:
+			dia="No es un dia Valido";
+			break;
 		}
+		System.out.println("El numero ingresado es del dia :"+dia);
 	}
 
 }
