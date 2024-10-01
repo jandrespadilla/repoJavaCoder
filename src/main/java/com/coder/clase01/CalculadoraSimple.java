@@ -4,7 +4,7 @@ public class CalculadoraSimple {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	    public static void main(String[] args) {
+	   
 	        int a = 10, b = 5;
 	        System.out.println("Suma: " + (a + b));
 	        System.out.println("Resta: " + (a - b));
@@ -14,7 +14,7 @@ public class CalculadoraSimple {
 	        } catch (ArithmeticException e) {
 	            System.out.println("Error: División por cero.");
 	        }
-	    }
+	    
 	}
 
 }
