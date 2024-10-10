@@ -18,5 +18,8 @@ public class Clase01 {
 		for (String nombre: nombreDePersona) {
 			System.out.println("nombre: "+nombre);
 		}
+		Perro elfiru=new Perro();
+		
+	
 	}
 }
