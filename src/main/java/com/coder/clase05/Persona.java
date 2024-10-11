@@ -3,8 +3,17 @@ package com.coder.clase05;
 public class Persona {
 	
 	private String nombre;
+	private int dni;
+
 	private int edad;
 	
+	public int getDni() {
+		return dni;
+	}
+
+	public void setDni(int dni) {
+		this.dni = dni;
+	}
 	
 
 	public String getNombre() {
