@@ -1,5 +1,6 @@
-package com.coder.clase05;
- 
+package com.coder.clase06;
+import com.coder.Herencia.Perro;
+import com.coder.Herencia.Gato;
 import com.coder.banco.Cuenta;
 import com.coder.banco.CajaAhorro;
 import com.coder.banco.CuentaCorriente;
