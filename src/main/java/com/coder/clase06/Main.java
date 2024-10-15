@@ -4,6 +4,7 @@ import com.coder.Herencia.Gato;
 import com.coder.banco.Cuenta;
 import com.coder.banco.CajaAhorro;
 import com.coder.banco.CuentaCorriente;
+import com.coder.clase06.emtidades.Persona;
 public class Main {
 
 	public static void main(String[] args) {

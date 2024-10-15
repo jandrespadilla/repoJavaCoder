@@ -1,4 +1,4 @@
-package com.coder.clase06;
+package com.coder.clase06.emtidades;
 
 import com.coder.clase05.Persona;
 

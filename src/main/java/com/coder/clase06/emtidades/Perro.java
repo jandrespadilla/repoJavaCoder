@@ -1,4 +1,4 @@
-package com.coder.clase06;
+package com.coder.clase06.emtidades;
 
 public class Perro extends Animal {
 
